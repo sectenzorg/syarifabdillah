@@ -24,14 +24,14 @@ I am a dedicated and self-motivated System Engineer. I possess proficient concep
 
 ## Experiences
 **System Engineer**, PT. Bringin Inti Teknologi (bit.)\
-*Juni 2020 – Present*
+*June 2020 – Present*
 
 - Assist development team in applying good DevSecOps practices and continuously improve CI/CD pipelines
 - Apply an automation-mindset in everything (Infrastructure, CI/CD, Scripting, & Build tools to improve workflow)
 - Apply a cloud-diagnostic, cost-efficient and high-available mindset
 - Join in on-call work and assist developers in debugging issues
 - Work with Nutanix
-- Work with AWS, GCP, Docker, Kubernetes, GitLab, ELK Stack, MinIO, DataDog, Confluent, Apache Druid, Wazuh IPS, Kafka, Zabbix, OpenProject, NextCloud, Grafana, ModSecurity WAF, Barracuda, etc
+- Work with AWS, GCP, Docker, Kubernetes, GitLab, ELK Stack, MinIO, DataDog, Confluent, Apache Druid, Wazuh IPS, Kafka, Zabbix, OpenProject, NextCloud, Grafana, SonarQube, Barracuda, etc
 
 **System Administrator**, PT. WIR Asia (WIR Group)\
 *January 2019 – June 2019*
