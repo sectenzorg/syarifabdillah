@@ -1,6 +1,6 @@
 ---
 title: 
-date: 2023-06-14T22:45:06+02:00
+date: 2020-06-18T22:45:06+02:00
 draft: false
 author: 
 ---
@@ -16,18 +16,17 @@ author:
 ---
 &nbsp;
  
-Hello!, I'm **Syarip Muhammad Abdillah**
+Greetings! I am **Syarip Muhammad Abdillah.**
 
-System Engineer & Highly motivated to learn something new, who is self-motivated and open to learning. My strong suits are conceptual thinking and analytical thinking.
+I am a dedicated and self-motivated System Engineer. I possess proficient conceptual thinking and analytical skills. I am always eager to enhance my knowledge and continuously learn and grow. Thank you for taking the time to acquaint yourself with a brief overview of my background and aspirations.
 
 &nbsp;
-
 
 ## Experiences
 **System Engineer**, PT. Bringin Inti Teknologi (bit.)\
 *Juni 2020 – Present*
 
-- Assist development team in applying good DevOps practices and continuously improve CI/CD pipelines
+- Assist development team in applying good DevSecOps practices and continuously improve CI/CD pipelines
 - Apply an automation-mindset in everything (Infrastructure, CI/CD, Scripting, & Build tools to improve workflow)
 - Apply a cloud-diagnostic, cost-efficient and high-available mindset
 - Join in on-call work and assist developers in debugging issues

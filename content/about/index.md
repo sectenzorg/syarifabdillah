@@ -1,14 +1,14 @@
 ---
 title: About
-date: 2023-06-14T22:45:06+02:00
+date: 2020-06-18T22:45:06+02:00
 draft: false
 author: Syarip Muhammad Abdillah
 ---
 
 Hello,
 
-Call me **Syarip** & nice to meet you all, this is a personal website that contains my learning summaries, stories and more.
+Please call me **Syarip**, and it's a pleasure to meet all of you. This is a personal website that encompasses my learning summaries, narratives, and more.
 
 &nbsp;
 
-That's just a little about me, Thank you :)
+That is just a brief introduction about myself. Thank you.
