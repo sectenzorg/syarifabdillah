@@ -157,5 +157,5 @@ Introduction to Docker Container & Demo (ID).\
 
 --- 
 
-I the undersigned, certify that:
-To the best of my knowledge, this curriculum vitae correctly describes myself, my qualifications, and my experiences.
+I, the undersigned, certify that:
+To the best of my knowledge, this resume accurately describes myself, my qualifications, and my experiences. Thank you.
