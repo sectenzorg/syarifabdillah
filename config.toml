@@ -48,16 +48,20 @@ disableHugoGeneratorInject = false
     url = "mailto:abdillahsyarip@gmail.com"
 
   [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/_syarifabdillah"
+    name = "github"
+    url = "https://github.com/sectenzorg"
 
   [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/syarifabdillah13/"
 
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/_syarifabdillah"
+
 [menu]
   [[menu.main]]
-    identifier = "Docs"
+    identifier = "docs"
     name = "Documentation"
     url = "/posts"
 
