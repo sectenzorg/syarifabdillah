@@ -3,6 +3,9 @@ title: '1. Debunking 10 Myths About Microservices Architecture - Separating Fact
 date: 2023-06-15
 weight: 1
 layout: 'list'
+tags:
+    - Microservices
+    - High Availability
 ---
 ---
 > Specification : Microservices, High Availability
