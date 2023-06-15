@@ -10,6 +10,8 @@ tags:
 ---
 > Specification : Microservices, High Availability
 
+![ms-theory](./images/microservices.png)
+
 ## Introduction:
 In the fast-paced world of software development, microservices architecture has gained significant popularity. However, it's crucial to separate the myths from the realities to make informed decisions and avoid pitfalls. In this blog, we will debunk ten common myths surrounding microservices architecture, shedding light on the truth behind them. By dispelling these misconceptions, we aim to provide a clearer understanding of the intricacies of microservices and enable you to harness their true potential in your projects.
 
