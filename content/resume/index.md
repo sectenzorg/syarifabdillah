@@ -70,21 +70,21 @@ Managed Services & Operational - **BRILink**
 *November 2020*
 
 -	Install and configure server BRILink Microsite.
-- Setup and check security (Pentest & Patching Vulnerabilities)
+-   Setup and check security (Pentest & Patching Vulnerabilities)
 -	And more tasks.
 
 Managed Services & Operational - **PT. Super Pasar Rakyat Indonesia (PARI)**
 *January 2021 - Present*
 
 -	Install and configure server PARI.
-- Setup and check security system PARI.
+-   Setup and check security system PARI.
 -	And more tasks.
 
 Managed Services & Operational - **New Pasar.id**
 *June 2021 - Present*
 
 -	Install and configure server New Pasar.id.
-- Setup and check security system New Pasar.id.
+-   Setup and check security system New Pasar.id.
 -	And more tasks.
 
 Managed Services & Operational - **PT. BRILian Indah Gemilang (BRIDge)**
@@ -109,8 +109,16 @@ Managed Services & Operational - **Digitalisasi SK Tim Agile (BRI ISG Division)*
 *December 2021*
 
 -	Install and configure server.
-- Setup and check security system.
-- Code Cleaning, SAST, DAST.
+-   Setup and check security system.
+-   Code Cleaning, SAST, DAST.
+-	And more tasks.
+
+Managed Services & Operational - **PT. Satu Kosong Tujuh**
+*July 2022*
+
+-	Install and configure server.
+-   Setup and check security system.
+-   Code Cleaning, SAST, DAST.
 -	And more tasks.
 
 ---
@@ -140,6 +148,10 @@ Credential ID irwXpOND9g\
 **NSE 3 Network Security Associate**\
 Credential ID twNra7P2gV\
 *Issued July 2022 – Expires Jul 2024*
+
+**Zerto Certified Associate**\
+Credential ID Z2oAXHyc\
+*Issued March 2023*
 
 **Certified Mobilyze Operator**\
 *Expired*
