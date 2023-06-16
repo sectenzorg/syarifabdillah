@@ -6,7 +6,7 @@ layout: 'list'
 tags:
     - Microservices
     - High Availability
----
+    - Theory
 ---
 > Specification : Microservices, High Availability
 

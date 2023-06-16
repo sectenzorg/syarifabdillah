@@ -7,7 +7,6 @@ tags:
     - Monitoring
     - Virtual Machine
 ---
----
 > Specification : Monitoring, Grafana, Prometheus, Node Exporter
 
 ![vm-stat](./images/vm-stat-grafana-prom.png)
