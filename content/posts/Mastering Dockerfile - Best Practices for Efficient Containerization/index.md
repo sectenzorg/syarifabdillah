@@ -1,5 +1,5 @@
 ---
-title: '3. Mastering Dockerfile Best Practices for Efficient Containerization'
+title: '3. Mastering Dockerfile - Best Practices for Efficient Containerization'
 date: 2023-06-16
 weight: 3
 layout: 'list'
