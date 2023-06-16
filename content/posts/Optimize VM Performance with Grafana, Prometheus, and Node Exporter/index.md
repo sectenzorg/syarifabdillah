@@ -208,6 +208,6 @@ scrape_configs:
   - job_name: 'node_exporter'
     scrape_interval: 5s
     static_configs:
-      - targets: ['192.168.13.11:1322', '192.168.13.12:1322', '192.168.13.13:1322'] 
+      - targets: ['192.168.13.11:1322', '192.168.13.12:1322', 'ip-address:port']
 ```
 #### Import Grafana Dashboard Node Exporter: 14731 and 11074
