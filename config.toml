@@ -26,8 +26,9 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   DefaultContentLanguage = "en"
-  description = " Homepage and microblog by Syarip Muhammad Abdillah"
-  keywords = "DevSecOps, DevOps, Cloud, etc."
+  description = "Homepage and microblog by Syarip Muhammad Abdillah"
+  keywords = "DevSecOps, DevOps, Cloud Computing, etc."
+  avatar = "avatar.png"
   images = [""]
 
   homeSubtitle = "Systems Engineer"

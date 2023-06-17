@@ -73,18 +73,29 @@ Managed Services & Operational - **BRILink**
 -   Setup and check security (Pentest & Patching Vulnerabilities)
 -	And more tasks.
 
+Managed Services & Operational - **PT. Bringin Inti Teknologi (bit.)**
+*June 2020 - Present*
+
+-	Install and configure server.
+-   Install and setup web server as a proxy and WAF to handle 50000+ EDC machines.
+-   Deploying of infrastructure and technologies for a SOC using IDS/IPS (Wazuh), kafka, and ELK Stack.
+-   Install and configure apache druid, kafka, and confluent to pull CRM engine data.
+-   Setup, check, and patching security system.
+-   Code Cleaning, SAST, DAST.
+-	And more tasks.
+
 Managed Services & Operational - **PT. Super Pasar Rakyat Indonesia (PARI)**
 *January 2021 - Present*
 
 -	Install and configure server PARI.
--   Setup and check security system PARI.
+-   Setup, check, and patching security system PARI.
 -	And more tasks.
 
 Managed Services & Operational - **New Pasar.id**
 *June 2021 - Present*
 
 -	Install and configure server New Pasar.id.
--   Setup and check security system New Pasar.id.
+-   Setup, check, and patching security system New Pasar.id.
 -	And more tasks.
 
 Managed Services & Operational - **PT. BRILian Indah Gemilang (BRIDge)**
@@ -109,7 +120,7 @@ Managed Services & Operational - **Digitalisasi SK Tim Agile (BRI ISG Division)*
 *December 2021*
 
 -	Install and configure server.
--   Setup and check security system.
+-   Setup, check, and patching security system.
 -   Code Cleaning, SAST, DAST.
 -	And more tasks.
 
@@ -117,7 +128,7 @@ Managed Services & Operational - **PT. Satu Kosong Tujuh**
 *July 2022*
 
 -	Install and configure server.
--   Setup and check security system.
+-   Setup, check, and patching security system.
 -   Code Cleaning, SAST, DAST.
 -	And more tasks.
 
