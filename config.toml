@@ -28,7 +28,6 @@ disableHugoGeneratorInject = false
   DefaultContentLanguage = "en"
   description = "Homepage and microblog by Syarip Muhammad Abdillah"
   keywords = "DevSecOps, DevOps, Cloud Computing, etc."
-  avatar = "avatar.png"
   images = [""]
 
   homeSubtitle = "Systems Engineer"
