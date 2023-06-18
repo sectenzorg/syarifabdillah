@@ -1,5 +1,5 @@
 ---
-title: '2. Optimize VM Performance with Grafana, Prometheus, and Node Exporter'
+title: 'Optimize VM Performance with Grafana, Prometheus, and Node Exporter'
 date: 2023-06-15
 weight: 2
 layout: 'list'
