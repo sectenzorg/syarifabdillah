@@ -69,4 +69,4 @@ In summary, bare-metal Kubernetes excels in use cases where performance is param
 &nbsp;
 
 #### Reference 
-- ITProToday : https://www.itprotoday.com/hybrid-cloud-and-multicloud pros-and-cons-kubernetes-bare-metal
+- ITProToday : https://www.itprotoday.com/hybrid-cloud-and-multicloud/pros-and-cons-kubernetes-bare-metal
