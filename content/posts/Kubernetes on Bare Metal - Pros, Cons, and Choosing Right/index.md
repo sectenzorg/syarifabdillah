@@ -11,7 +11,6 @@ tags:
     - Theory
     - Cloud Computing
     - Bare Metal
-    - Theory
 ---
 > Specification : Kubernetes, Microservices, Cloud Computing
 
