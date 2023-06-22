@@ -47,8 +47,6 @@ Monitoring microservices is vital for ensuring their optimal performance and res
 ## Conclusion:
 By adhering to these best practices, you can build an efficient microservices ecosystem that maximizes scalability, maintainability, and development speed. Embrace the principles of SRP, establish clear team responsibilities, choose the right tools and frameworks, promote asynchronous communication, prioritize security with DevSecOps.
 
----
 &nbsp;
-
 #### Reference 
 - semaphore : https://semaphoreci.com/blog/microservices-best-practices

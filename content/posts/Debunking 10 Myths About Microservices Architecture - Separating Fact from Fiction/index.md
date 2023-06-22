@@ -50,8 +50,6 @@ While microservices can reduce costs in some areas by enabling precise scaling a
 ## Conclusion:
 Microservices architecture, like any other tool, has its strengths and weaknesses. Understanding the realities behind the myths is crucial for making informed architectural decisions. By debunking these misconceptions, we have provided a more balanced view of microservices. Armed with this knowledge, you can make better decisions when choosing the appropriate architectural style for your next project. Embracing microservices correctly can unlock significant benefits in terms of scalability, flexibility, and productivity.
 
----
 &nbsp;
-
 #### Reference 
 - Design Gurus : https://www.designgurus.io/blog/10-Myths-About-Microservices-Architecture

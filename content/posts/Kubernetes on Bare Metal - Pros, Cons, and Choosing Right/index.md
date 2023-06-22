@@ -64,8 +64,6 @@ Living in a software-defined world, the choice of running Kubernetes on bare met
 ## Conclusion:
 In summary, bare-metal Kubernetes excels in use cases where performance is paramount, simplification through reduced node count is desired, or direct GPU access is essential. However, for most other scenarios, virtual machines offer greater flexibility and resilience. By considering these pros and cons, you can make an informed decision when choosing between bare-metal Kubernetes and virtual machines for your specific requirements.
 
----
 &nbsp;
-
 #### Reference 
 - ITProToday : https://www.itprotoday.com/hybrid-cloud-and-multicloud/pros-and-cons-kubernetes-bare-metal

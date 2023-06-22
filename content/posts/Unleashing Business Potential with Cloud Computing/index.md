@@ -62,7 +62,6 @@ Cloud computing offers numerous advantages over traditional on-premises systems.
 ## Conclusion:
 In conclusion, cloud computing has brought about a revolutionary change in the way businesses deploy and manage applications, offering numerous advantages over traditional computing methods. Its on-demand nature, resource pooling, rapid elasticity, and measured service empower companies to develop and deploy applications faster and more reliably. As cloud computing continues to evolve, businesses that embrace and harness these technologies strategically will remain competitive in the ever-changing digital landscape.
 
----
-
+&nbsp;
 #### Reference 
 - 8grams : https://8grams.medium.com/cloud-computing-the-fundamental-51b50b84c76a
