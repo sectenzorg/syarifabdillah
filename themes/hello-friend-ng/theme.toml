@@ -6,11 +6,6 @@ tags = ["blog", "clean", "customizable", "dark", "highlighting", "light", "minim
 features = ["blog", "shortcode", "syntax highlighting"]
 min_version = 0.30
 
-[author]
-  name = "Tommaso Pifferi"
-  homepage = "https://tommasopifferi.com"
-  twitter = "https://twitter.com/neslinesli93"
-
 [original]
   name = "hello-friend-ng"
   homepage = "https://github.com/rhazdon/hugo-theme-hello-friend-ng"
