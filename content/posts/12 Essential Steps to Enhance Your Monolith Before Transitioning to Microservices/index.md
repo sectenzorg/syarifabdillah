@@ -4,7 +4,7 @@ date: 2023-06-23
 weight: 12
 layout: 'list'
 tags:
-    - Microservice
+    - Microservices
     - Transitioning
     - Monolith
     - Theory
