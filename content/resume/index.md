@@ -57,7 +57,7 @@ Managed Services & Operational - **PT. BRI Insurance (BRINS)**
 Managed Services & Operational - **PT. BRI Syariah (BRIS)**
 *October 2020*
 
--	Maintenance server IBM v7000 Storwize
+-   Maintenance server IBM v7000 Storwize
 -	And more tasks.
 
 Managed Services & Operational - **PT.  Bank Rakyat Indonesia, Tbk.**
