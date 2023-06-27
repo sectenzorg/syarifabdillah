@@ -53,5 +53,5 @@ Dynamic Application Security Testing involves real-time vulnerability analysis o
 Dynamic Application Security Testing (DAST) tools are indispensable in ensuring application security within the DevSecOps pipeline. By incorporating DAST tools like OWASP ZAP and following best practices, organizations can identify and remediate vulnerabilities effectively. Prioritizing application security, using a combination of testing methods, and conducting regular scans will contribute to a robust and secure application environment. Implement DAST tools today to proactively minimize security risks and safeguard your applications.
 
 &nbsp;
-#### Reference 
+#### Reference:
 -  semaphore : https://semaphoreci.com/blog/dast-tools#best-practices-for-using-dast-tools

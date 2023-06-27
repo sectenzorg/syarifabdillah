@@ -152,5 +152,5 @@ By following these 13 tips, you can optimize your Dockerfile writing and contain
 Remember, writing efficient Dockerfiles is an iterative process, and you can adapt these tips based on your specific use cases and requirements. Happy containerizing!
 
 &nbsp;
-#### Reference 
+#### Reference:
 - Medium : @praveensirvi

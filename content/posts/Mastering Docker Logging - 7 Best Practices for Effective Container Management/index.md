@@ -51,5 +51,5 @@ Storing logs for an adequate period is crucial for compliance, auditing, and tro
 Mastering Docker logging is key to effective container management. By implementing these best practices, you can optimize your Docker environment, overcome logging challenges, and ensure the smooth operation of your containers. Explore the benefits of proper Docker logging configuration, log size management, log rotation, centralized logging, log tagging, log monitoring, and log storage. Start applying these practices today to enhance application security, troubleshooting capabilities, and overall Docker performance.
 
 &nbsp;
-#### Reference 
+#### Reference:
 - semaphore : https://semaphoreci.com/blog/docker-logging-best-practices

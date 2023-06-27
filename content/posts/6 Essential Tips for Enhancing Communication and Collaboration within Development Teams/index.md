@@ -41,5 +41,5 @@ As remote work becomes more prevalent, mastering communication in distributed so
 Strong communication skills are indispensable for successful collaboration within development teams. By implementing these six practical tips, such as optimizing meetings, asking open-ended questions, improving planning and estimation, embracing agile communication, enhancing code reviews, and excelling in remote work environments, teams can foster effective communication, enhance collaboration, and achieve their goals. Investing in these soft skills will yield long-term benefits, enabling teams to work efficiently and maintain productivity in any work environment.
 
 &nbsp;
-#### Reference 
+#### Reference:
 - semaphore : https://semaphoreci.com/blog/dev-team-communication

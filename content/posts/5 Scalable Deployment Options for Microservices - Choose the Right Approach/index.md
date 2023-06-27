@@ -37,5 +37,5 @@ Serverless architectures, exemplified by AWS Lambda and Google Cloud Functions, 
 Choosing the right deployment method for microservices involves evaluating factors such as application size, scalability requirements, infrastructure management preferences, and the skill sets of the development team. The options discussed range from simple single-machine deployments to advanced orchestrators and serverless architectures. It is common for organizations to utilize a combination of deployment methods, leveraging bare-metal servers, virtual machines, Kubernetes, and serverless functions. By selecting the most suitable deployment option for each aspect of the application, developers can maximize the benefits of microservices while minimizing tradeoffs.
 
 &nbsp;
-#### Reference 
+#### Reference:
 - semaphore : https://semaphoreci.com/blog/deploy-microservices

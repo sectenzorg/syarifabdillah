@@ -50,5 +50,5 @@ As a leader, remain calm and supportive during challenging times. Provide guidan
 Becoming a successful tech leader requires a commitment to the well-being and growth of your team. By prioritizing others, effectively communicating, recognizing excellence, and maintaining momentum, you can establish yourself as a respected and successful leader. Remember, leadership is not just about titles or positions but about inspiring and guiding your team towards shared success. Implement these tips, observe successful leaders, and continuously improve your leadership skills to build success and foster strong relationships within your team.
 
 &nbsp;
-#### Reference 
+#### Reference:
 - semaphore : https://semaphoreci.com/blog/successful-tech-leader

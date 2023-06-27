@@ -2,7 +2,6 @@ baseurl = "/"
 theme = "hello-friend-ng"
 languageCode = "en-us"
 
-
 title = "Syarip Muhammad Abdillah"
 
 paginate = 100

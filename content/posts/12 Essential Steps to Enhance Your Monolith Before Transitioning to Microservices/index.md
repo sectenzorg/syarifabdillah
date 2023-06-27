@@ -58,5 +58,5 @@ Prioritize observability by implementing robust monitoring and logging practices
 Transitioning from a monolith to microservices requires careful planning and execution. By following these 12 steps, you can optimize your monolith, minimize risks, and ensure a smoother
 
 &nbsp;
-#### Reference 
+#### Reference:
 - semaphore : https://semaphoreci.com/blog/monolith-microservices
