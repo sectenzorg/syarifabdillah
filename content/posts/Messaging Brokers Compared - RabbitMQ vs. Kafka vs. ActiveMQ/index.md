@@ -1,7 +1,7 @@
 ---
 title: 'Messaging Brokers Compared - RabbitMQ vs. Kafka vs. ActiveMQ'
 date: 2023-06-27
-weight: 12
+weight: 13
 layout: 'list'
 tags:
     - Message Broker

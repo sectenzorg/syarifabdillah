@@ -1,7 +1,7 @@
 ---
 title: 'A Comprehensive Comparison of REST, GraphQL, and gRPC for API Development'
 date: 2023-06-27
-weight: 13
+weight: 14
 layout: 'list'
 tags:
     - API
