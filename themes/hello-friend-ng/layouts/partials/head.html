@@ -56,3 +56,8 @@
 <link href="{{ if .OutputFormats.Get "json" }}{{ .Site.BaseURL }}feed.json{{ end }}" rel="alternate"
     type="application/json" title="{{ .Site.Title }}" />
 {{ end }}
+
+<!-- Google Analytics internal template -->
+{{- if .Site.GoogleAnalytics }}
+    {{ template "_internal/google_analytics.html" . }}
+{{- end}}

@@ -1,6 +1,7 @@
 baseurl = "/"
 theme = "hello-friend-ng"
 languageCode = "en-us"
+googleAnalytics = "G-P4ZZQCL6M2"
 
 title = "Syarip Muhammad Abdillah"
 
