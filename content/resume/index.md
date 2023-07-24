@@ -132,6 +132,14 @@ Managed Services & Operational - **PT. Satu Kosong Tujuh**
 -   Code Cleaning, SAST, DAST.
 -	And more tasks.
 
+Managed Services & Operational - **Filemedis**
+*July 2023*
+
+-	Install and configure server.
+-   Setup, check, and patching security system.
+-   Code Cleaning, SAST, DAST.
+-	And more tasks.
+
 ---
 
 ## Certifications
