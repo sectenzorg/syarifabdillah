@@ -132,7 +132,7 @@ Managed Services & Operational - **PT. Satu Kosong Tujuh**
 -   Code Cleaning, SAST, DAST.
 -	And more tasks.
 
-Managed Services & Operational - **Filemedis**
+Managed Services & Operational - **File Medis Indonesia**
 *July 2023*
 
 -	Install and configure server.
