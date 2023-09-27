@@ -146,7 +146,7 @@ Managed Services & Operational - **HPE Cloudera**
 -	Install and configure OS Redhat.
 -	And more tasks.
 
-Managed Services & Operational - **RSU Fakinah - Banda Aceh**
+Managed Services & Operational - **RS Teungku Fakinah - Banda Aceh**
 *September 2023*
 
 -	Install and configure server.
