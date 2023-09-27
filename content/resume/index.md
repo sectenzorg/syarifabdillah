@@ -143,7 +143,7 @@ Managed Services & Operational - **File Medis Indonesia**
 Managed Services & Operational - **HPE Cloudera**
 *September 2023*
 
--	Install and configure OS Redhat .
+-	Install and configure OS Redhat.
 -	And more tasks.
 
 ---
