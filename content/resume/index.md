@@ -140,6 +140,12 @@ Managed Services & Operational - **File Medis Indonesia**
 -   Code Cleaning, SAST, DAST.
 -	And more tasks.
 
+Managed Services & Operational - **HPE Cloudera**
+*September 2023*
+
+-	Install and configure OS Redhat .
+-	And more tasks.
+
 ---
 
 ## Certifications
