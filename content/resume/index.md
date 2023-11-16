@@ -153,6 +153,14 @@ Managed Services & Operational - **RS Teungku Fakinah - Banda Aceh**
 -   Setup, check, and patching security system.
 -	And more tasks.
 
+Managed Services & Operational - **SMAN 6 Bogor - Kota Bogor**
+*October 2023*
+
+-	Install and configure server HPE.
+-   Setup, check, and patching security system.
+-   Setup and Install CBT Server.
+-	And more tasks.
+
 ---
 
 ## Certifications
