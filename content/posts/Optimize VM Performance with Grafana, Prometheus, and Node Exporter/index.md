@@ -37,13 +37,13 @@ chown prometheus:prometheus /var/lib/prometheus
 ### 1. Download Prometheus
 To download Prometheus, you can visit the [Prometheus](https://github.com/prometheus/prometheus/releases/) releases page on GitHub. From there, you can select the desired version and download the corresponding release package.
 ```
-wget https://github.com/prometheus/prometheus/releases/download/v2.44.0/prometheus-2.44.0.linux-amd64.tar.gz
-tar -xzvf prometheus-2.44.0.linux-amd64.tar.gz
+wget https://github.com/prometheus/prometheus/releases/download/v2.48.1/prometheus-2.48.1.linux-amd64.tar.gz
+tar -xzvf prometheus-2.48.1.linux-amd64.tar.gz
 ```
 #### Copy folder prometheus and promtool
 ```
-cp prometheus-2.44.0.linux-amd64/prometheus /usr/local/bin/
-cp prometheus-2.44.0.linux-amd64/promtool /usr/local/bin/
+cp prometheus-2.48.1.linux-amd64/prometheus /usr/local/bin/
+cp prometheus-2.48.1.linux-amd64/promtool /usr/local/bin/
 ```
 #### Set User and Group Ownership folder
 ```
@@ -52,8 +52,8 @@ chown prometheus:prometheus /usr/local/bin/promtool
 ```
 #### Copy folder consoles and console_libraries
 ```
-cp -R prometheus-2.44.0.linux-amd64/consoles /etc/prometheus/
-cp -R prometheus-2.44.0.linux-amd64/console_libraries /etc/prometheus/
+cp -R prometheus-2.48.1.linux-amd64/consoles /etc/prometheus/
+cp -R prometheus-2.48.1.linux-amd64/console_libraries /etc/prometheus/
 ```
 #### Set user and group ownership folder consoles and console_libraries
 ```
@@ -122,12 +122,12 @@ systemctl status prometheus
 To download Node Exporter, you can visit the [Node Exporter](https://github.com/prometheus/node_exporter/releases/) releases page on GitHub. From there, you can select the desired version and download the corresponding release package.
 
 ```
-wget https://github.com/prometheus/node_exporter/releases/download/v1.6.0/node_exporter-1.6.0.linux-amd64.tar.gz
-tar -xzvf node_exporter-1.6.0.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/v1.7.0/node_exporter-1.7.0.linux-amd64.tar.gz
+tar -xzvf node_exporter-1.7.0.linux-amd64.tar.gz
 ```
 Copy node_exporter. Set user and group ownership node_exporter.
 ```
-cp node_exporter-1.6.0.linux-amd64/node_exporter /usr/local/bin/
+cp node_exporter-1.7.0.linux-amd64/node_exporter /usr/local/bin/
 chown node_exporter:node_exporter /usr/local/bin/node_exporter
 ```
 &nbsp;
@@ -210,4 +210,4 @@ scrape_configs:
     static_configs:
       - targets: ['192.168.13.11:1322', '192.168.13.12:1322']
 ```
-#### Import Grafana Dashboard Node Exporter: 14731 and 11074
+#### Import Grafana Dashboard Node Exporter: 11074
