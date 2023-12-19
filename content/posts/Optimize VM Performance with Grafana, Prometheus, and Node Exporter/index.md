@@ -16,6 +16,11 @@ Maximizing the performance of virtual machines (VMs) is crucial for maintaining 
 
 ## Installation :
 
+#### Grafana Setup
+Before installing Prometheus and Node Exporter, it's crucial to have Grafana set up and configured in your system. Grafana plays a pivotal role in our monitoring setup, offering a user-friendly interface for visualizing and analyzing data.
+
+You can install and configure Grafana by following the steps outlined in the [Grafana Download Page](https://grafana.com/grafana/download). Ensure Grafana is up and running, as it will serve as the cornerstone for integrating with Prometheus and Node Exporter, facilitating a comprehensive and effective VM monitoring solution.
+
 #### Create User
 ```
 useradd --no-create-home --shell /bin/false prometheus
