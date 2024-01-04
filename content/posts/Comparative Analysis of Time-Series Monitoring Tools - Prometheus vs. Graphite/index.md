@@ -15,6 +15,8 @@ tags:
 ## Introduction:
 In the realm of modern system and application monitoring, time-series analysis stands as a pivotal technique for understanding trends, anomalies, and performance metrics over time. This article delves into the significance of time-series monitoring, its applications across various industries, and subsequently provides an in-depth comparison between two prominent tools in this domain - Prometheus and Graphite.
 
+---
+&nbsp;
 ### Time-series Monitoring: Importance and Applications
 Time-series monitoring involves the continuous observation and analysis of sequential data, aiding in identifying patterns, deviations, and trends crucial for maintaining the health and performance of systems and applications. This method extends beyond mere error identification at a single point in time, enabling the detection of issues' origins and their ripple effects across processes.
 
