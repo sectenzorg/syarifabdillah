@@ -1,5 +1,5 @@
 ---
-title: 'Exploring Monolithic, Service-Oriented, and Microservice Architectures - Top Design Patterns Unveiled'
+title: 'Exploring Monolithic, Service-Oriented, and Microservice Architectures: Top Design Patterns Unveiled'
 date: 2023-12-04
 weight: 19
 layout: 'list'

@@ -1,5 +1,5 @@
 ---
-title: '5 Scalable Deployment Options for Microservices - Choose the Right Approach'
+title: '5 Scalable Deployment Options for Microservices: Choose the Right Approach'
 date: 2023-06-23
 weight: 11
 layout: 'list'

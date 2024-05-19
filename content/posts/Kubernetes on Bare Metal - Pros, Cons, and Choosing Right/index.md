@@ -1,5 +1,5 @@
 ---
-title: 'Kubernetes on Bare Metal - Pros, Cons, and Choosing Right'
+title: 'Kubernetes on Bare Metal: Pros, Cons, and Choosing Right'
 date: 2023-06-17
 weight: 4
 layout: 'list'

@@ -1,5 +1,5 @@
 ---
-title: 'Day-to-Day DevOps Engineer - Driving Efficient Software Delivery'
+title: 'Day-to-Day DevOps Engineer: Driving Efficient Software Delivery'
 date: 2023-07-24
 weight: 16
 layout: 'list'

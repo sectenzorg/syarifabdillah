@@ -1,5 +1,5 @@
 ---
-title: 'Messaging Brokers Compared - RabbitMQ vs. Kafka vs. ActiveMQ'
+title: 'Messaging Brokers Compared: RabbitMQ vs. Kafka vs. ActiveMQ'
 date: 2023-06-27
 weight: 13
 layout: 'list'

@@ -1,5 +1,5 @@
 ---
-title: 'Stream Processing Showdown - Kafka Streams vs. Apache Flink vs. Apache Storm'
+title: 'Stream Processing Showdown: Kafka Streams vs. Apache Flink vs. Apache Storm'
 date: 2023-12-01
 weight: 17
 layout: 'list'

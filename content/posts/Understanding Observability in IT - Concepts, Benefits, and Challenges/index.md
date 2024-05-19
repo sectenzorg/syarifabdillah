@@ -1,5 +1,5 @@
 ---
-title: 'Understanding Observability in IT - Concepts, Benefits, and Challenges'
+title: 'Understanding Observability in IT: Concepts, Benefits, and Challenges'
 date: 2023-12-03
 weight: 18
 layout: 'list'

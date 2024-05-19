@@ -1,5 +1,5 @@
 ---
-title: 'Dynamic Application Security Testing (DAST) - Enhancing Application Security'
+title: 'Dynamic Application Security Testing (DAST): Enhancing Application Security'
 date: 2023-06-22
 weight: 7
 layout: 'list'

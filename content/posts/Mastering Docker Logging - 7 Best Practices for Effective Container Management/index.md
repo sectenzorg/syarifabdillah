@@ -1,5 +1,5 @@
 ---
-title: 'Mastering Docker Logging - 7 Best Practices for Effective Container Management'
+title: 'Mastering Docker Logging: 7 Best Practices for Effective Container Management'
 date: 2023-06-22
 weight: 8
 layout: 'list'

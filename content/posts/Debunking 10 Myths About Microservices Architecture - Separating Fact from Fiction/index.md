@@ -1,5 +1,5 @@
 ---
-title: 'Debunking 10 Myths About Microservices Architecture - Separating Fact from Fiction'
+title: 'Debunking 10 Myths About Microservices Architecture: Separating Fact from Fiction'
 date: 2023-06-15
 weight: 1
 layout: 'list'

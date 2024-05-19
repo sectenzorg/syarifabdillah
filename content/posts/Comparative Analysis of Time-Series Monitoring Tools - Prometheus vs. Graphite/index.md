@@ -1,5 +1,5 @@
 ---
-title: 'Comparative Analysis of Time-Series Monitoring Tools - Prometheus vs. Graphite'
+title: 'Comparative Analysis of Time-Series Monitoring Tools: Prometheus vs. Graphite'
 date: 2024-01-04
 weight: 21
 layout: 'list'

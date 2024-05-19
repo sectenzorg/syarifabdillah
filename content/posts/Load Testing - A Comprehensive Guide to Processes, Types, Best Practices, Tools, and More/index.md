@@ -1,5 +1,5 @@
 ---
-title: 'Load Testing - A Comprehensive Guide to Processes, Types, Best Practices, Tools, and More'
+title: 'Load Testing: A Comprehensive Guide to Processes, Types, Best Practices, Tools, and More'
 date: 2023-07-11
 weight: 15
 layout: 'list'
