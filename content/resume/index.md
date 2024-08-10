@@ -18,12 +18,12 @@ author:
  
 Greetings! I am **Syarip Muhammad Abdillah.**
 
-I am a dedicated and self-motivated System Engineer. I possess proficient conceptual thinking and analytical skills. I am always eager to enhance my knowledge and continuously learn and grow. Thank you for taking the time to acquaint yourself with a brief overview of my background and aspirations.
+I am a dedicated and self-motivated Systems Engineer with strong conceptual thinking and analytical skills. I am constantly eager to expand my knowledge and embrace opportunities for continuous learning and growth. Thank you for taking the time to get to know a brief overview of my background and aspirations.
 
 &nbsp;
 
 ## Experiences
-**System Engineer**, PT. Bringin Inti Teknologi (bit.)\
+**Systems Engineer**, PT. Bringin Inti Teknologi (bit.)\
 *June 2020 – Present*
 
 - Assist development team in applying good DevSecOps practices and continuously improve CI/CD pipelines
