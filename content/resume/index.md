@@ -8,7 +8,7 @@ author:
 ## SYARIP MUHAMMAD ABDILLAH
 
 ---
-- E-Mail: abdillahsyarip@gmail.com
+- E-Mail: hello@syarifabdillah.my.id
 - Website: https://syarifabdillah.my.id
 - LinkedIn: https://linkedin.com/in/syarifabdillah13/
 - GitHub: https://github.com/sectenzorg/
