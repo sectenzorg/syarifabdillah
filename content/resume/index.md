@@ -210,6 +210,10 @@ Oct 2019 with SMKS Wikrama Bogor
 
 ## Accomplishments
 
+**Speaker – Memantau Infrastruktur dengan Grafana & Prometheus**\
+Sejarah, Instalasi, Setup, Penggunaan & Demo (ID).\
+*September 24 2024*
+
 **Speaker – Docker Dasar FUN-damentals**\
 Introduction to Docker Container & Demo (ID).\
 *June 3 2022*

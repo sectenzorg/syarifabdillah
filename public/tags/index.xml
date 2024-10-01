@@ -2,13 +2,455 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Syarip Muhammad Abdillah</title>
-    <link>/tags/</link>
+    <link>https://syarifabdillah.my.id/tags/</link>
     <description>Recent content in Tags on Syarip Muhammad Abdillah</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://syarifabdillah.my.id/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Architecture</title>
+      <link>https://syarifabdillah.my.id/tags/architecture/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database Systems</title>
+      <link>https://syarifabdillah.my.id/tags/database-systems/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/database-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High Availability</title>
+      <link>https://syarifabdillah.my.id/tags/high-availability/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/high-availability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development Tools</title>
+      <link>https://syarifabdillah.my.id/tags/development-tools/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/development-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://syarifabdillah.my.id/tags/kubernetes/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monitoring Tools</title>
+      <link>https://syarifabdillah.my.id/tags/monitoring-tools/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/monitoring-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theory</title>
+      <link>https://syarifabdillah.my.id/tags/theory/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time Series</title>
+      <link>https://syarifabdillah.my.id/tags/time-series/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>API Gateway</title>
+      <link>https://syarifabdillah.my.id/tags/api-gateway/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/api-gateway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Load Balancer</title>
+      <link>https://syarifabdillah.my.id/tags/load-balancer/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/load-balancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reverse Proxy</title>
+      <link>https://syarifabdillah.my.id/tags/reverse-proxy/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/reverse-proxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theoy</title>
+      <link>https://syarifabdillah.my.id/tags/theoy/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/theoy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Architecture</title>
+      <link>https://syarifabdillah.my.id/tags/web-architecture/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/web-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design Pattern</title>
+      <link>https://syarifabdillah.my.id/tags/design-pattern/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/design-pattern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microservice</title>
+      <link>https://syarifabdillah.my.id/tags/microservice/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/microservice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monolithic</title>
+      <link>https://syarifabdillah.my.id/tags/monolithic/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/monolithic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service-Oriented</title>
+      <link>https://syarifabdillah.my.id/tags/service-oriented/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/service-oriented/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Observability</title>
+      <link>https://syarifabdillah.my.id/tags/observability/</link>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/observability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apache Flink</title>
+      <link>https://syarifabdillah.my.id/tags/apache-flink/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/apache-flink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apache Storm</title>
+      <link>https://syarifabdillah.my.id/tags/apache-storm/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/apache-storm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kafka</title>
+      <link>https://syarifabdillah.my.id/tags/kafka/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/kafka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stream Processing</title>
+      <link>https://syarifabdillah.my.id/tags/stream-processing/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/stream-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaboration</title>
+      <link>https://syarifabdillah.my.id/tags/collaboration/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/collaboration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Communication</title>
+      <link>https://syarifabdillah.my.id/tags/communication/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teams</title>
+      <link>https://syarifabdillah.my.id/tags/teams/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/teams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Load Testing</title>
+      <link>https://syarifabdillah.my.id/tags/load-testing/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/load-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stress Testting</title>
+      <link>https://syarifabdillah.my.id/tags/stress-testting/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/stress-testting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>API</title>
+      <link>https://syarifabdillah.my.id/tags/api/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GraphQL</title>
+      <link>https://syarifabdillah.my.id/tags/graphql/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/graphql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Message Broker</title>
+      <link>https://syarifabdillah.my.id/tags/message-broker/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/message-broker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microservices</title>
+      <link>https://syarifabdillah.my.id/tags/microservices/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/microservices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST</title>
+      <link>https://syarifabdillah.my.id/tags/rest/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Empower</title>
+      <link>https://syarifabdillah.my.id/tags/empower/</link>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/empower/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leaders</title>
+      <link>https://syarifabdillah.my.id/tags/leaders/</link>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/leaders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monolith</title>
+      <link>https://syarifabdillah.my.id/tags/monolith/</link>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/monolith/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalable</title>
+      <link>https://syarifabdillah.my.id/tags/scalable/</link>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/scalable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transitioning</title>
+      <link>https://syarifabdillah.my.id/tags/transitioning/</link>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/transitioning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing</title>
+      <link>https://syarifabdillah.my.id/tags/cloud-computing/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DAST</title>
+      <link>https://syarifabdillah.my.id/tags/dast/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/dast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://syarifabdillah.my.id/tags/docker/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logging</title>
+      <link>https://syarifabdillah.my.id/tags/logging/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/logging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://syarifabdillah.my.id/tags/security/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business</title>
+      <link>https://syarifabdillah.my.id/tags/business/</link>
+      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bare Metal</title>
+      <link>https://syarifabdillah.my.id/tags/bare-metal/</link>
+      <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/bare-metal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Containerization</title>
+      <link>https://syarifabdillah.my.id/tags/containerization/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/containerization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dockerfile</title>
+      <link>https://syarifabdillah.my.id/tags/dockerfile/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/dockerfile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monitoring</title>
+      <link>https://syarifabdillah.my.id/tags/monitoring/</link>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual Machine</title>
+      <link>https://syarifabdillah.my.id/tags/virtual-machine/</link>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/virtual-machine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CI/CD</title>
+      <link>https://syarifabdillah.my.id/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://syarifabdillah.my.id/tags/ci/cd/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
