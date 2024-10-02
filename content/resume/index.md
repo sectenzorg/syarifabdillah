@@ -169,12 +169,24 @@ Managed Services & Operational - **SMAN 6 Bogor - Kota Bogor**
 Credential ID 981885\
 *Issued May 2020*
 
+**Google Cloud Cybersecurity Certificate**
+Credential ID f8ebae9d-b8e1-4d1a-8432-1e6f96deee8b
+*Issued Sept 2024*
+
+**Google Cloud Computing Foundations Certificate**
+Credential ID 735db7a2-d699-4439-882e-84e236cc634f
+*Issued Sept 2024*
+
 **ICSI | CNSS Certified Network Security Specialist**\
 Credential ID 18251751\
 *Issued May 2020*
 
 **Kubernetes Administration**\
 Credential ID f09e18d7-adc0-48ec-b326-bed55b743400\
+*Issued May 2021 – Expires May 2024*
+
+**OpenStack Administration**\
+Credential ID fe67d5ea-b379-438f-b876-971ee6690720\
 *Issued May 2021 – Expires May 2024*
 
 **NSE 1 Network Security Associate**\
