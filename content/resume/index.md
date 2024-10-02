@@ -169,12 +169,12 @@ Managed Services & Operational - **SMAN 6 Bogor - Kota Bogor**
 Credential ID 981885\
 *Issued May 2020*
 
-**Google Cloud Cybersecurity Certificate**
-Credential ID f8ebae9d-b8e1-4d1a-8432-1e6f96deee8b
+**Google Cloud Cybersecurity Certificate**\
+Credential ID f8ebae9d-b8e1-4d1a-8432-1e6f96deee8b\
 *Issued Sept 2024*
 
-**Google Cloud Computing Foundations Certificate**
-Credential ID 735db7a2-d699-4439-882e-84e236cc634f
+**Google Cloud Computing Foundations Certificate**\
+Credential ID 735db7a2-d699-4439-882e-84e236cc634f\
 *Issued Sept 2024*
 
 **ICSI | CNSS Certified Network Security Specialist**\
