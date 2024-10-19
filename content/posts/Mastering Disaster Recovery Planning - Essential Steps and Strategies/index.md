@@ -9,7 +9,7 @@ tags:
 
 > Are you looking to develop a robust disaster recovery plan that ensures your business can effectively respond to unexpected events? This article will guide you through the essential steps and strategies for creating a comprehensive disaster recovery plan that minimizes downtime and maintains business continuity.
 
-![Disaster Recovery](./images/disaster-recovery.jpg)
+![Disaster Recovery](./images/disaster-recovery.png)
 
 ## Introduction
 A disaster recovery plan (DRP) is a vital document that outlines the strategies and processes to follow during a disaster, aimed at ensuring the continuity of business operations. The primary goal of a DRP is to minimize disruption and facilitate a swift return to normalcy. In this article, we will explore the essential components and steps necessary for crafting an effective disaster recovery plan, empowering your business to remain resilient in the face of unforeseen challenges.
