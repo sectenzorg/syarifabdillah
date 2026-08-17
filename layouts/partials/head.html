@@ -37,7 +37,7 @@
 
 <!-- Stylesheets -->
 {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
-{{ $style := resources.Get "scss/main.scss" | css.Sass $options | resources.Fingerprint }}
+{{ $style := resources.Get "scss/main.scss" | toCSS $options | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 {{ range $val := $.Site.Params.customCSS }}
