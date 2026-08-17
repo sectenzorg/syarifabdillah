@@ -1,7 +1,7 @@
 /* ==========================================================================
    MINIMALIST EDITORIAL TECH DESIGN SYSTEM
    Ultra-Clean, High-Precision, Pure Blue & White, 100% Mobile/Desktop Responsive
-   100% Lighthouse Performance, Accessibility, Best Practices, and SEO
+   Production-Grade Ready for syarifabdillah.my.id
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap');
@@ -163,22 +163,16 @@ main, .content {
   box-sizing: border-box !important;
 }
 
-/* Sticky Glassmorphism Header */
+/* Clean Solid Header (No Glassmorphism) */
 .header {
   position: sticky !important;
   top: 0 !important;
   z-index: 1000 !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-  background-color: rgba(255, 255, 255, 0.92) !important;
+  background-color: var(--color-bg) !important;
   border-bottom: 1px solid var(--color-border) !important;
   padding: 14px 0 !important;
-  transition: background-color 0.25s ease, border-color 0.25s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
   width: 100% !important;
-}
-
-.dark-theme .header {
-  background-color: rgba(13, 17, 23, 0.92) !important;
 }
 
 .header__inner {
@@ -222,6 +216,15 @@ main, .content {
   50% { opacity: 0; }
 }
 
+/* Clean Navigation (No Glassmorphism / No Floating Card Box) */
+.menu {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 .menu__inner {
   display: flex !important;
   align-items: center !important;
@@ -229,7 +232,9 @@ main, .content {
   list-style: none !important;
   margin: 0 !important;
   padding: 0 !important;
-  flex-wrap: wrap !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .menu__inner li a {
@@ -241,19 +246,12 @@ main, .content {
   border-radius: 6px !important;
   transition: all 0.15s ease !important;
   display: inline-block !important;
+  background: transparent !important;
 }
 
 .menu__inner li a:hover {
   color: var(--color-accent) !important;
   background-color: var(--color-accent-bg) !important;
-}
-
-/* Mobile Dropdown Menu Styling */
-.menu {
-  background-color: var(--color-surface) !important;
-  border: 1px solid var(--color-border) !important;
-  border-radius: 8px !important;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
 }
 
 /* Status Indicator Dot (Pure Blue) */
@@ -771,7 +769,7 @@ a.cv-download-btn svg,
   color: var(--color-accent) !important;
 }
 
-/* Ultra-Robust Mobile & Tablet Responsive Styles */
+/* Mobile Responsive Popup Menu */
 @media (max-width: 768px) {
   html {
     font-size: 15px;
@@ -788,6 +786,13 @@ a.cv-download-btn svg,
   .header__inner {
     padding: 0 12px !important;
     gap: 8px !important;
+  }
+  
+  .menu {
+    background-color: var(--color-surface) !important;
+    border: 1px solid var(--color-border) !important;
+    border-radius: 8px !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
   }
   
   .menu__inner {
