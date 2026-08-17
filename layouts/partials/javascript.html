@@ -1,0 +1,139 @@
+{{ $main := resources.Get "js/main.js" }}
+{{ $menu := resources.Get "js/menu.js" }}
+{{ $theme := resources.Get "js/theme.js" }}
+{{ $secureJS := slice $main $menu $theme | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+<script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous"></script>
+
+{{- with .Site.Config.Services.GoogleAnalytics.ID }}
+    {{ template "_internal/google_analytics.html" $ }}
+{{- end}}
+
+{{ range $val := $.Site.Params.customJS }}
+    {{ if gt (len $val) 0 }}
+        <script src="{{ $val }}"></script>
+    {{ end }}
+{{ end }}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 1. Reading Progress Bar
+    const progressBar = document.createElement('div');
+    progressBar.id = 'reading-progress-bar';
+    document.body.appendChild(progressBar);
+
+    window.addEventListener('scroll', function() {
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+        if (progressBar) {
+            progressBar.style.width = scrolled + '%';
+        }
+    });
+
+    // 2. Add Copy Code Buttons to all <pre> blocks
+    const preBlocks = document.querySelectorAll('.post-content pre');
+    preBlocks.forEach(function(pre) {
+        const copyBtn = document.createElement('button');
+        copyBtn.className = 'copy-code-btn';
+        copyBtn.innerText = 'Copy';
+        
+        copyBtn.addEventListener('click', function() {
+            const code = pre.querySelector('code');
+            const codeText = code ? code.innerText : pre.innerText;
+            navigator.clipboard.writeText(codeText).then(function() {
+                copyBtn.innerText = 'Copied!';
+                copyBtn.classList.add('copied');
+                setTimeout(function() {
+                    copyBtn.innerText = 'Copy';
+                    copyBtn.classList.remove('copied');
+                }, 2000);
+            }).catch(function(err) {
+                console.error('Failed to copy code: ', err);
+            });
+        });
+        
+        pre.appendChild(copyBtn);
+    });
+
+    // 3. Instant Post Search Filter
+    const searchInput = document.getElementById('post-search-input');
+    if (searchInput) {
+        searchInput.addEventListener('input', function(e) {
+            const query = e.target.value.toLowerCase().trim();
+            const postItems = document.querySelectorAll('.post-item');
+            const postGroups = document.querySelectorAll('.posts-group');
+
+            postItems.forEach(function(item) {
+                const titleText = item.querySelector('.post-title') ? item.querySelector('.post-title').innerText.toLowerCase() : '';
+                if (titleText.includes(query)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+
+            postGroups.forEach(function(group) {
+                const visibleItems = Array.from(group.querySelectorAll('.post-item')).filter(function(item) {
+                    return item.style.display !== 'none';
+                });
+                if (visibleItems.length === 0 && query !== '') {
+                    group.style.display = 'none';
+                } else {
+                    group.style.display = 'block';
+                }
+            });
+        });
+    }
+
+    // 4. Back to Top Button
+    const backToTopBtn = document.createElement('button');
+    backToTopBtn.id = 'back-to-top';
+    backToTopBtn.innerHTML = '↑ Top';
+    document.body.appendChild(backToTopBtn);
+
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+            backToTopBtn.classList.add('show');
+        } else {
+            backToTopBtn.classList.remove('show');
+        }
+    });
+
+    backToTopBtn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // 5. Heading Anchor Links
+    const headings = document.querySelectorAll('.post-content h2, .post-content h3');
+    headings.forEach(function(h) {
+        if (h.id) {
+            const anchor = document.createElement('a');
+            anchor.className = 'heading-anchor';
+            anchor.href = '#' + h.id;
+            anchor.innerText = ' #';
+            anchor.title = 'Copy section link';
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const sectionUrl = window.location.origin + window.location.pathname + '#' + h.id;
+                navigator.clipboard.writeText(sectionUrl);
+                anchor.innerText = ' ✓';
+                setTimeout(function() { anchor.innerText = ' #'; }, 1500);
+            });
+            h.appendChild(anchor);
+        }
+    });
+
+    // 6. Copy Share URL Button
+    const copyShareBtn = document.getElementById('copy-share-url-btn');
+    if (copyShareBtn) {
+        copyShareBtn.addEventListener('click', function() {
+            navigator.clipboard.writeText(window.location.href).then(function() {
+                copyShareBtn.innerText = 'Copied!';
+                setTimeout(function() {
+                    copyShareBtn.innerHTML = '<svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> Copy Link';
+                }, 2000);
+            });
+        });
+    }
+});
+</script>

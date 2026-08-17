@@ -1,0 +1,81 @@
+baseurl = "https://syarifabdillah.my.id/"
+theme = "hello-friend-ng"
+locale = "en-us"
+
+title = "Syarip Muhammad Abdillah"
+
+paginate = 100
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+  tag = "tags"
+  
+[params]
+  dateform = "Jan 2, 2006"
+  dateformShor = "Jan 2"
+  dateformNum = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  DefaultContentLanguage = "en"
+  description = "Lead System Engineer specializing in Infrastructure & Platform Engineering, Kubernetes, DevOps / SRE, and DevSecOps."
+  keywords = "Lead System Engineer, Platform Engineering, DevOps, SRE, DevSecOps, Kubernetes, Docker, GCP, AWS, Syarip Muhammad Abdillah"
+  images = [""]
+  customCSS = ["/custom.css"]
+
+  homeSubtitle = "Lead System Engineer | Infrastructure & Platform Engineering | DevOps / SRE"
+  feedUrl = ""
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+  [params.logo]
+    logoText = "> $ cd ~"
+    logoHomeLink = "/"
+
+  # Social icons
+  [[params.social]]
+    name = "email"
+    url = "mailto:abdillahsyarip@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/sectenzorg"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/syarifabdillah/"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/_syarifabdillah"
+
+[menu]
+  [[menu.main]]
+    identifier = "docs"
+    name = "Documentation"
+    url = "/posts"
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume"
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
