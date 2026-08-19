@@ -1,22 +1,21 @@
 {{ define "main" }}
-    <main role="main" class="posts">
-        <div class="index-content">
-            {{ if .Site.Params.Portrait.Path }}
-               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
-            {{ end }}
+<main role="main" class="posts">
+    <div class="index-content">
+        {{ if .Site.Params.Portrait.Path }}
+        <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}"
+            style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+        {{ end }}
 
-            <h1 class="index-title">{{ .Site.Title }}</h1>
-            {{- with .Site.Params.homeSubtitle }}
-                <p class="index-subtitle">{{ . }}</p>
-            {{- end }}
+        <h1 class="index-title">{{ .Site.Title }}</h1>
+        {{- with .Site.Params.homeSubtitle }}
+        <p class="index-subtitle">{{ . }}</p>
+        {{- end }}
 
-            {{- with .Site.Params.social }}
-                <div class="index-social">
-                    {{ partial "social-icons.html" . }}
-                </div>
-            {{- end }}
+        {{- with .Site.Params.social }}
+        <div class="index-social">
+            {{ partial "social-icons.html" . }}
         </div>
-    </main>
+        {{- end }}
+    </div>
+</main>
 {{ end }}
-
-

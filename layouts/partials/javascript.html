@@ -2,7 +2,8 @@
 {{ $menu := resources.Get "js/menu.js" }}
 {{ $theme := resources.Get "js/theme.js" }}
 {{ $secureJS := slice $main $menu $theme | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
-<script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous"></script>
+<script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
+
 
 {{- with .Site.Config.Services.GoogleAnalytics.ID }}
     {{ template "_internal/google_analytics.html" $ }}

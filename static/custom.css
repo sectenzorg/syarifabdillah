@@ -9,24 +9,24 @@
 :root {
   --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-code: 'Fira Code', Consolas, Monaco, monospace;
-  
+
   --color-bg: #ffffff;
   --color-surface: #f8fafc;
   --color-border: #cbd5e1;
   --color-border-subtle: #e2e8f0;
-  
+
   --color-text-main: #0f172a;
   --color-text-body: #1e293b;
   --color-text-muted: #475569;
-  
+
   --color-accent: #1d4ed8;
   --color-accent-hover: #1e40af;
   --color-accent-bg: #eff6ff;
-  
+
   --color-code-bg: #f1f5f9;
   --color-pre-bg: #0f172a;
   --color-pre-text: #f8fafc;
-  
+
   --color-quote-bg: #f8fafc;
   --color-quote-border: #1d4ed8;
 }
@@ -36,19 +36,19 @@
   --color-surface: #161b22;
   --color-border: #30363d;
   --color-border-subtle: #21262d;
-  
+
   --color-text-main: #f8fafc;
   --color-text-body: #e2e8f0;
   --color-text-muted: #94a3b8;
-  
+
   --color-accent: #388bfd;
   --color-accent-hover: #58a6ff;
   --color-accent-bg: rgba(56, 139, 253, 0.15);
-  
+
   --color-code-bg: #161b22;
   --color-pre-bg: #090d12;
   --color-pre-text: #f0f6fc;
-  
+
   --color-quote-bg: rgba(22, 27, 34, 0.8);
   --color-quote-border: #388bfd;
 }
@@ -173,7 +173,9 @@ html {
   scroll-behavior: smooth;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -192,7 +194,8 @@ body {
 }
 
 /* Entrance Fade In */
-main, .content {
+main,
+.content {
   animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
@@ -201,6 +204,7 @@ main, .content {
     opacity: 0;
     transform: translateY(8px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -230,7 +234,8 @@ main, .content {
   padding: 24px 0 !important;
 }
 
-.post, .posts {
+.post,
+.posts {
   width: 100% !important;
   max-width: 800px !important;
   margin: 24px auto !important;
@@ -287,8 +292,15 @@ main, .content {
 }
 
 @keyframes blinkBlue {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
 }
 
 /* Clean Navigation (No Glassmorphism / No Floating Card Box) */
@@ -757,7 +769,8 @@ a.cv-download-btn svg,
 }
 
 /* Images */
-.post-content img, .post-cover {
+.post-content img,
+.post-cover {
   max-width: 100% !important;
   height: auto !important;
   border-radius: 8px !important;
@@ -825,16 +838,21 @@ a.cv-download-btn svg,
   font-weight: 600;
 }
 
-/* Footer Styling */
+/* Footer Styling (100% WCAG AAA Color Contrast Compliance) */
 .footer {
   flex: 0 0 auto !important;
   border-top: 1px solid var(--color-border) !important;
   padding: 24px 16px !important;
   margin-top: auto !important;
-  font-size: 0.85rem !important;
-  color: var(--color-text-muted) !important;
+  font-size: 0.88rem !important;
+  color: #334155 !important;
   width: 100% !important;
   box-sizing: border-box !important;
+  opacity: 1 !important;
+}
+
+.dark-theme .footer {
+  color: #e2e8f0 !important;
 }
 
 .footer__inner {
@@ -854,13 +872,14 @@ a.cv-download-btn svg,
   gap: 8px 16px !important;
   width: 100% !important;
   box-sizing: border-box !important;
-  font-size: 0.85rem !important;
+  font-size: 0.88rem !important;
+  color: inherit !important;
 }
 
 /* Completely disable theme pseudo-element bullets to eliminate orphan dot */
-.footer__content > *::after,
+.footer__content>*::after,
 .footer__content span::after,
-.footer__content > *:not(:last-child)::after {
+.footer__content>*:not(:last-child)::after {
   content: none !important;
   display: none !important;
 }
@@ -870,16 +889,26 @@ a.cv-download-btn svg,
   align-items: center !important;
   gap: 4px !important;
   white-space: nowrap !important;
+  color: inherit !important;
+  font-weight: 500 !important;
 }
 
 .footer a {
-  color: var(--color-text-main) !important;
-  text-decoration: none !important;
+  color: #0f172a !important;
+  text-decoration: underline !important;
+  font-weight: 600 !important;
+}
+
+.dark-theme .footer a {
+  color: #f8fafc !important;
+  text-decoration: underline !important;
+  font-weight: 600 !important;
 }
 
 .footer a:hover {
   color: var(--color-accent) !important;
 }
+
 
 
 /* ==========================================================================
@@ -933,15 +962,15 @@ a.cv-download-btn svg,
   html {
     font-size: 15px;
   }
-  
+
   .container {
     padding: 0 16px !important;
   }
-  
+
   .header {
     padding: 10px 0 !important;
   }
-  
+
   .header__inner {
     padding: 0 16px !important;
     gap: 8px !important;
@@ -988,7 +1017,7 @@ a.cv-download-btn svg,
     padding: 8px 10px !important;
     min-width: 160px !important;
   }
-  
+
   .menu__inner {
     display: flex !important;
     flex-direction: column !important;
@@ -1008,7 +1037,7 @@ a.cv-download-btn svg,
     margin: 0 !important;
     padding: 0 !important;
   }
-  
+
   .menu__inner li a,
   .menu a {
     display: block !important;
@@ -1028,8 +1057,9 @@ a.cv-download-btn svg,
     color: var(--color-accent) !important;
   }
 
-  
-  .post, .posts {
+
+  .post,
+  .posts {
     padding: 0 12px !important;
     margin: 16px auto !important;
   }
@@ -1045,27 +1075,27 @@ a.cv-download-btn svg,
     gap: 4px !important;
     padding: 10px 8px !important;
   }
-  
+
   .post-item .post-day {
     margin-left: 0 !important;
     font-size: 0.8rem !important;
   }
-  
+
   .post-content pre {
     padding: 12px 14px !important;
     border-radius: 6px !important;
   }
-  
+
   .share-bar {
     flex-direction: column !important;
     align-items: flex-start !important;
     padding: 14px 16px !important;
   }
-  
+
   .share-buttons {
     width: 100% !important;
   }
-  
+
   .share-btn {
     flex: 1 1 auto !important;
     justify-content: center !important;
@@ -1083,39 +1113,56 @@ a.cv-download-btn svg,
     font-size: 11pt !important;
     line-height: 1.4 !important;
   }
-  .header, .footer, .cv-download-btn, #reading-progress-bar, #back-to-top, .share-bar, .sharing-buttons, .pagination {
+
+  .header,
+  .footer,
+  .cv-download-btn,
+  #reading-progress-bar,
+  #back-to-top,
+  .share-bar,
+  .sharing-buttons,
+  .pagination {
     display: none !important;
   }
-  .container, .post, .posts {
+
+  .container,
+  .post,
+  .posts {
     max-width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
   }
+
   a {
     color: #000000 !important;
     text-decoration: none !important;
   }
+
   .post-title {
     font-size: 20pt !important;
     margin-bottom: 8pt !important;
   }
+
   h2 {
     font-size: 14pt !important;
     border-bottom: 1pt solid #000000 !important;
     margin-top: 14pt !important;
     margin-bottom: 6pt !important;
   }
+
   h3 {
     font-size: 12pt !important;
     margin-top: 10pt !important;
     margin-bottom: 4pt !important;
   }
-  ul, ol {
+
+  ul,
+  ol {
     margin-top: 4pt !important;
     margin-bottom: 6pt !important;
   }
+
   li {
     margin-bottom: 2pt !important;
   }
 }
-
