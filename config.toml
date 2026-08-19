@@ -32,7 +32,8 @@ disableHugoGeneratorInject = false
   DefaultContentLanguage = "en"
   description = "Lead System Engineer specializing in Infrastructure & Platform Engineering, Kubernetes, DevOps / SRE, and DevSecOps."
   keywords = "Lead System Engineer, Platform Engineering, DevOps, SRE, DevSecOps, Kubernetes, Docker, GCP, AWS, Syarip Muhammad Abdillah"
-  images = [""]
+  images = ["/og-image.png"]
+
   customCSS = ["/custom.css"]
 
   homeSubtitle = "Lead System Engineer | Infrastructure & Platform Engineering | DevOps / SRE"

@@ -22,7 +22,9 @@ I am a **Lead System Engineer** specializing in infrastructure and platform engi
 
 - 📧 **Email:** [abdillahsyarip@gmail.com](mailto:abdillahsyarip@gmail.com)
 - 📍 **Location:** Jakarta, Indonesia
-- 💼 **LinkedIn:** [linkedin.com/in/syarifabdillah](https://linkedin.com/in/syarifabdillah) &nbsp;|&nbsp; 🎖️ **Credly:** [credly.com/users/syarifabdillah](https://credly.com/users/syarifabdillah)
+- 💼 **LinkedIn:** [linkedin.com/in/syarifabdillah](https://linkedin.com/in/syarifabdillah)
+- 🎖️ **Credly:** [credly.com/users/syarifabdillah](https://credly.com/users/syarifabdillah)
+
 
 <p style="margin-top: 1.2em;">
   <a href="/Syarip_Muhammad_Abdillah_CV_ATS.pdf" class="cv-download-btn" download target="_blank">
