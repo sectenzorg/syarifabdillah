@@ -985,16 +985,49 @@ a.cv-download-btn svg,
     border-radius: 8px !important;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
     text-align: left !important;
+    padding: 8px 10px !important;
+    min-width: 160px !important;
   }
   
   .menu__inner {
-    gap: 4px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    gap: 2px !important;
+  }
+
+  .menu__inner li {
+    display: block !important;
+    width: 100% !important;
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
   
-  .menu__inner li a {
-    padding: 5px 8px !important;
-    font-size: 0.88rem !important;
+  .menu__inner li a,
+  .menu a {
+    display: block !important;
+    width: 100% !important;
+    text-align: left !important;
+    padding: 8px 12px !important;
+    font-size: 0.92rem !important;
+    font-weight: 500 !important;
+    color: var(--color-text-main) !important;
+    border-radius: 6px !important;
+    box-sizing: border-box !important;
   }
+
+  .menu__inner li a:hover,
+  .menu a:hover {
+    background-color: var(--color-accent-bg) !important;
+    color: var(--color-accent) !important;
+  }
+
   
   .post, .posts {
     padding: 0 12px !important;
