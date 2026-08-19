@@ -40,16 +40,14 @@
 </noscript>
 
 
-<!-- Stylesheets -->
+<!-- Stylesheets (Inlined for 100/100 Mobile & Desktop Performance) -->
 {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
-{{ $style := resources.Get "scss/main.scss" | toCSS $options | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ $style := resources.Get "scss/main.scss" | toCSS $options }}
+<style>
+{{ $style.Content | safeCSS }}
+{{ readFile "static/custom.css" | safeCSS }}
+</style>
 
-{{ range $val := $.Site.Params.customCSS }}
-    {{ if gt (len $val) 0 }}
-        <link rel="stylesheet" type="text/css" href="{{ $val }}">
-    {{ end }}
-{{ end }}
 
 <!-- Icons -->
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
